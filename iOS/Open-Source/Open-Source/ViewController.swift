@@ -8,43 +8,42 @@
 
 import UIKit
 
-@IBDesignable class ViewController: LBXScanViewController, UIWebViewDelegate {
+class ViewController: LBXScanViewController, UIWebViewDelegate {
     
     @IBOutlet weak var webView: UIWebView!
+    @IBOutlet weak var popUpView: UIView!
     
-    var scannedStrings:[String] = []
-    var isScanning = false
     
     override func viewDidLoad() {
-        webView.isHidden = true
-        webView.layer.cornerRadius = 5
+        // popUpView.isHidden = true
+        // webView.isHidden = true
+        webView.alpha = 0
+        webView.clipsToBounds = true
+        webView.layer.cornerRadius = 10
         self.modalPresentationStyle = UIModalPresentationStyle.currentContext
-        _ = Timer.scheduledTimer(timeInterval: 0.4, target: self, selector: "update", userInfo: nil, repeats: true)
-    }
-    
-    func update() {
-        // print("Hello")
+        self.view.bringSubview(toFront: popUpView)
     }
     
     override func handleCodeResult(arrayResult: [LBXScanResult]) {
         var strings = arrayResult.map { result in
             return result.strScanned!
         }
-        performSegue(withIdentifier: "displayDetail", sender: self)
 
-        if !(scannedStrings == strings) {
-            let url = URL(string: strings[0])!
-            webView.isHidden = false
-            self.view.bringSubview(toFront: webView)
-            let req = URLRequest(url: url)
-            webView.loadRequest(req)
+        let url = URL(string: strings[0])!
+        
+        self.view.bringSubview(toFront: popUpView)
+        let req = URLRequest(url: url)
+        webView.loadRequest(req)
+        UIView.animate(withDuration: 0.5) {
+            self.webView.alpha = 1
         }
-        
-        scannedStrings = strings
-        
-        scanObj?.start()
     }
     
-    
+    @IBAction func dismissWebView(_ sender: Any) {
+        UIView.animate(withDuration: 0.5) {
+            self.webView.alpha = 0
+        }
+        scanObj?.start()
+    }
 }
 

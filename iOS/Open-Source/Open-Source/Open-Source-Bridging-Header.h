@@ -9,6 +9,5 @@
 #ifndef Open_Source_Bridging_Header_h
 #define Open_Source_Bridging_Header_h
 
-#import <STPopupPreview/STPopupPreview.h>
 
 #endif /* Open_Source_Bridging_Header_h */

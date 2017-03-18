@@ -1,0 +1,15 @@
+PODS:
+  - STPopup (1.8.2)
+  - STPopupPreview (1.0.2):
+    - STPopup (~> 1.7)
+
+DEPENDENCIES:
+  - STPopupPreview
+
+SPEC CHECKSUMS:
+  STPopup: b69b3e7484ef7d2baec5f9ab2939f8a7bcdfe218
+  STPopupPreview: 1da3ee0d54d3ad1ddb8a97286226f273d987028b
+
+PODFILE CHECKSUM: 0da5a2f9e654217ea079017e4d433e85e0bc25a8
+
+COCOAPODS: 1.2.0

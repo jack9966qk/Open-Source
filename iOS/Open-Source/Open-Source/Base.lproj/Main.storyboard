@@ -6,7 +6,6 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12078"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -22,48 +21,50 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="C76-bv-fid">
-                                <rect key="frame" x="46" y="70" width="283" height="547"/>
-                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="y9T-w8-zAo">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <subviews>
+                                    <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="C76-bv-fid">
+                                        <rect key="frame" x="20" y="40" width="335" height="587"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <connections>
+                                            <outlet property="delegate" destination="BYZ-38-t0r" id="0De-xH-qjd"/>
+                                        </connections>
+                                    </webView>
+                                </subviews>
+                                <gestureRecognizers/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="C76-bv-fid" secondAttribute="trailing" constant="20" id="35t-a0-7pv"/>
+                                    <constraint firstAttribute="bottom" secondItem="C76-bv-fid" secondAttribute="bottom" constant="40" id="MbD-mT-qqQ"/>
+                                    <constraint firstItem="C76-bv-fid" firstAttribute="top" secondItem="y9T-w8-zAo" secondAttribute="top" constant="40" id="c7j-LI-tDl"/>
+                                    <constraint firstItem="C76-bv-fid" firstAttribute="leading" secondItem="y9T-w8-zAo" secondAttribute="leading" constant="20" id="gK5-a1-fus"/>
+                                </constraints>
                                 <connections>
-                                    <outlet property="delegate" destination="BYZ-38-t0r" id="0De-xH-qjd"/>
+                                    <outletCollection property="gestureRecognizers" destination="O3A-13-CNq" appends="YES" id="uZ2-92-rT9"/>
                                 </connections>
-                            </webView>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="C76-bv-fid" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="50" id="Unc-I1-e49"/>
-                            <constraint firstItem="C76-bv-fid" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="30" id="qbN-F4-ijD"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="C76-bv-fid" secondAttribute="trailing" constant="30" id="smj-t1-aoK"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="C76-bv-fid" secondAttribute="bottom" constant="50" id="xZy-I2-810"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="y9T-w8-zAo" secondAttribute="bottom" id="AlH-3I-3ed"/>
+                            <constraint firstItem="y9T-w8-zAo" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="mPm-H6-HFJ"/>
+                            <constraint firstItem="y9T-w8-zAo" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="nIg-Wq-0JP"/>
+                            <constraint firstAttribute="trailing" secondItem="y9T-w8-zAo" secondAttribute="trailing" id="t3X-SH-npU"/>
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="popUpView" destination="y9T-w8-zAo" id="afG-XU-PhJ"/>
                         <outlet property="webView" destination="C76-bv-fid" id="emW-3P-AZi"/>
-                        <segue destination="gZV-2o-Hyi" kind="presentation" identifier="displayDetail" modalPresentationStyle="overCurrentContext" id="490-KS-Hn8"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="O3A-13-CNq">
+                    <connections>
+                        <action selector="dismissWebView:" destination="BYZ-38-t0r" id="nNk-4p-MDl"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="32.799999999999997" y="38.23088455772114"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="GQq-0v-ZiV">
-            <objects>
-                <viewController id="gZV-2o-Hyi" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="6l5-MZ-Qmo"/>
-                        <viewControllerLayoutGuide type="bottom" id="AdO-PM-hcO"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="Ab9-uK-FT0">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="TXx-mz-IMl" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="825" y="38"/>
         </scene>
     </scenes>
 </document>
