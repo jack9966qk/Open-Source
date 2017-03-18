@@ -7,71 +7,80 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		04E9A9721E7CB3C000BFE58D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E9A9711E7CB3C000BFE58D /* AppDelegate.swift */; };
-		04E9A9741E7CB3C000BFE58D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E9A9731E7CB3C000BFE58D /* ViewController.swift */; };
-		04E9A9771E7CB3C000BFE58D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04E9A9751E7CB3C000BFE58D /* Main.storyboard */; };
-		04E9A97A1E7CB3C000BFE58D /* Open_Source.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 04E9A9781E7CB3C000BFE58D /* Open_Source.xcdatamodeld */; };
-		04E9A97C1E7CB3C000BFE58D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04E9A97B1E7CB3C000BFE58D /* Assets.xcassets */; };
-		04E9A97F1E7CB3C000BFE58D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04E9A97D1E7CB3C000BFE58D /* LaunchScreen.storyboard */; };
-		04E9A98A1E7CB3C000BFE58D /* Open_SourceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E9A9891E7CB3C000BFE58D /* Open_SourceTests.swift */; };
-		04E9A9951E7CB3C000BFE58D /* Open_SourceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E9A9941E7CB3C000BFE58D /* Open_SourceUITests.swift */; };
-		09E3CB0D0B5E8451F8B86BC2 /* Pods_Open_Source.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87DF470E30D45FC38304CE80 /* Pods_Open_Source.framework */; };
+		0410B2E81E7CE7D800F87093 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0410B2E71E7CE7D800F87093 /* AppDelegate.swift */; };
+		0410B2EA1E7CE7D800F87093 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0410B2E91E7CE7D800F87093 /* ViewController.swift */; };
+		0410B2ED1E7CE7D800F87093 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0410B2EB1E7CE7D800F87093 /* Main.storyboard */; };
+		0410B2F01E7CE7D800F87093 /* Open_Source.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0410B2EE1E7CE7D800F87093 /* Open_Source.xcdatamodeld */; };
+		0410B2F21E7CE7D800F87093 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0410B2F11E7CE7D800F87093 /* Assets.xcassets */; };
+		0410B2F51E7CE7D800F87093 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0410B2F31E7CE7D800F87093 /* LaunchScreen.storyboard */; };
+		0410B3001E7CE7D800F87093 /* Open_SourceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0410B2FF1E7CE7D800F87093 /* Open_SourceTests.swift */; };
+		0410B30B1E7CE7D800F87093 /* Open_SourceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0410B30A1E7CE7D800F87093 /* Open_SourceUITests.swift */; };
+		0410B3201E7CE7E200F87093 /* LBXPermissions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0410B3191E7CE7E200F87093 /* LBXPermissions.swift */; };
+		0410B3211E7CE7E200F87093 /* LBXScanLineAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0410B31A1E7CE7E200F87093 /* LBXScanLineAnimation.swift */; };
+		0410B3221E7CE7E200F87093 /* LBXScanNetAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0410B31B1E7CE7E200F87093 /* LBXScanNetAnimation.swift */; };
+		0410B3231E7CE7E200F87093 /* LBXScanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0410B31C1E7CE7E200F87093 /* LBXScanView.swift */; };
+		0410B3241E7CE7E200F87093 /* LBXScanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0410B31D1E7CE7E200F87093 /* LBXScanViewController.swift */; };
+		0410B3251E7CE7E200F87093 /* LBXScanViewStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0410B31E1E7CE7E200F87093 /* LBXScanViewStyle.swift */; };
+		0410B3261E7CE7E200F87093 /* LBXScanWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0410B31F1E7CE7E200F87093 /* LBXScanWrapper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		04E9A9861E7CB3C000BFE58D /* PBXContainerItemProxy */ = {
+		0410B2FC1E7CE7D800F87093 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 04E9A9661E7CB3C000BFE58D /* Project object */;
+			containerPortal = 0410B2DC1E7CE7D800F87093 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 04E9A96D1E7CB3C000BFE58D;
+			remoteGlobalIDString = 0410B2E31E7CE7D800F87093;
 			remoteInfo = "Open-Source";
 		};
-		04E9A9911E7CB3C000BFE58D /* PBXContainerItemProxy */ = {
+		0410B3071E7CE7D800F87093 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 04E9A9661E7CB3C000BFE58D /* Project object */;
+			containerPortal = 0410B2DC1E7CE7D800F87093 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 04E9A96D1E7CB3C000BFE58D;
+			remoteGlobalIDString = 0410B2E31E7CE7D800F87093;
 			remoteInfo = "Open-Source";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		04E9A96E1E7CB3C000BFE58D /* Open-Source.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Open-Source.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		04E9A9711E7CB3C000BFE58D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		04E9A9731E7CB3C000BFE58D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		04E9A9761E7CB3C000BFE58D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		04E9A9791E7CB3C000BFE58D /* Open_Source.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Open_Source.xcdatamodel; sourceTree = "<group>"; };
-		04E9A97B1E7CB3C000BFE58D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		04E9A97E1E7CB3C000BFE58D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		04E9A9801E7CB3C000BFE58D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		04E9A9851E7CB3C000BFE58D /* Open-SourceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Open-SourceTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		04E9A9891E7CB3C000BFE58D /* Open_SourceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Open_SourceTests.swift; sourceTree = "<group>"; };
-		04E9A98B1E7CB3C000BFE58D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		04E9A9901E7CB3C000BFE58D /* Open-SourceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Open-SourceUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		04E9A9941E7CB3C000BFE58D /* Open_SourceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Open_SourceUITests.swift; sourceTree = "<group>"; };
-		04E9A9961E7CB3C000BFE58D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		31DACA45DB722FD4DB3F9FB0 /* Pods-Open-Source.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Open-Source.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Open-Source/Pods-Open-Source.debug.xcconfig"; sourceTree = "<group>"; };
-		87DF470E30D45FC38304CE80 /* Pods_Open_Source.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Open_Source.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A814A49AE06825075AA9A6A3 /* Pods-Open-Source.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Open-Source.release.xcconfig"; path = "Pods/Target Support Files/Pods-Open-Source/Pods-Open-Source.release.xcconfig"; sourceTree = "<group>"; };
+		0410B2E41E7CE7D800F87093 /* Open-Source.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Open-Source.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0410B2E71E7CE7D800F87093 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0410B2E91E7CE7D800F87093 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0410B2EC1E7CE7D800F87093 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0410B2EF1E7CE7D800F87093 /* Open_Source.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Open_Source.xcdatamodel; sourceTree = "<group>"; };
+		0410B2F11E7CE7D800F87093 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0410B2F41E7CE7D800F87093 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0410B2F61E7CE7D800F87093 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0410B2FB1E7CE7D800F87093 /* Open-SourceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Open-SourceTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0410B2FF1E7CE7D800F87093 /* Open_SourceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Open_SourceTests.swift; sourceTree = "<group>"; };
+		0410B3011E7CE7D800F87093 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0410B3061E7CE7D800F87093 /* Open-SourceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Open-SourceUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0410B30A1E7CE7D800F87093 /* Open_SourceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Open_SourceUITests.swift; sourceTree = "<group>"; };
+		0410B30C1E7CE7D800F87093 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0410B3191E7CE7E200F87093 /* LBXPermissions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LBXPermissions.swift; sourceTree = "<group>"; };
+		0410B31A1E7CE7E200F87093 /* LBXScanLineAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LBXScanLineAnimation.swift; sourceTree = "<group>"; };
+		0410B31B1E7CE7E200F87093 /* LBXScanNetAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LBXScanNetAnimation.swift; sourceTree = "<group>"; };
+		0410B31C1E7CE7E200F87093 /* LBXScanView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LBXScanView.swift; sourceTree = "<group>"; };
+		0410B31D1E7CE7E200F87093 /* LBXScanViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LBXScanViewController.swift; sourceTree = "<group>"; };
+		0410B31E1E7CE7E200F87093 /* LBXScanViewStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LBXScanViewStyle.swift; sourceTree = "<group>"; };
+		0410B31F1E7CE7E200F87093 /* LBXScanWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LBXScanWrapper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		04E9A96B1E7CB3C000BFE58D /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				09E3CB0D0B5E8451F8B86BC2 /* Pods_Open_Source.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		04E9A9821E7CB3C000BFE58D /* Frameworks */ = {
+		0410B2E11E7CE7D800F87093 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		04E9A98D1E7CB3C000BFE58D /* Frameworks */ = {
+		0410B2F81E7CE7D800F87093 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0410B3031E7CE7D800F87093 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -81,90 +90,83 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		04E9A9651E7CB3C000BFE58D = {
+		0410B2DB1E7CE7D800F87093 = {
 			isa = PBXGroup;
 			children = (
-				04E9A9701E7CB3C000BFE58D /* Open-Source */,
-				04E9A9881E7CB3C000BFE58D /* Open-SourceTests */,
-				04E9A9931E7CB3C000BFE58D /* Open-SourceUITests */,
-				04E9A96F1E7CB3C000BFE58D /* Products */,
-				8AF68B509C01D5DC1E06486D /* Pods */,
-				B098D6AEB4BE1EF479124BE3 /* Frameworks */,
+				0410B2E61E7CE7D800F87093 /* Open-Source */,
+				0410B2FE1E7CE7D800F87093 /* Open-SourceTests */,
+				0410B3091E7CE7D800F87093 /* Open-SourceUITests */,
+				0410B2E51E7CE7D800F87093 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		04E9A96F1E7CB3C000BFE58D /* Products */ = {
+		0410B2E51E7CE7D800F87093 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				04E9A96E1E7CB3C000BFE58D /* Open-Source.app */,
-				04E9A9851E7CB3C000BFE58D /* Open-SourceTests.xctest */,
-				04E9A9901E7CB3C000BFE58D /* Open-SourceUITests.xctest */,
+				0410B2E41E7CE7D800F87093 /* Open-Source.app */,
+				0410B2FB1E7CE7D800F87093 /* Open-SourceTests.xctest */,
+				0410B3061E7CE7D800F87093 /* Open-SourceUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		04E9A9701E7CB3C000BFE58D /* Open-Source */ = {
+		0410B2E61E7CE7D800F87093 /* Open-Source */ = {
 			isa = PBXGroup;
 			children = (
-				04E9A9711E7CB3C000BFE58D /* AppDelegate.swift */,
-				04E9A9731E7CB3C000BFE58D /* ViewController.swift */,
-				04E9A9751E7CB3C000BFE58D /* Main.storyboard */,
-				04E9A97B1E7CB3C000BFE58D /* Assets.xcassets */,
-				04E9A97D1E7CB3C000BFE58D /* LaunchScreen.storyboard */,
-				04E9A9801E7CB3C000BFE58D /* Info.plist */,
-				04E9A9781E7CB3C000BFE58D /* Open_Source.xcdatamodeld */,
+				0410B3181E7CE7E200F87093 /* swiftScan */,
+				0410B2E71E7CE7D800F87093 /* AppDelegate.swift */,
+				0410B2E91E7CE7D800F87093 /* ViewController.swift */,
+				0410B2EB1E7CE7D800F87093 /* Main.storyboard */,
+				0410B2F11E7CE7D800F87093 /* Assets.xcassets */,
+				0410B2F31E7CE7D800F87093 /* LaunchScreen.storyboard */,
+				0410B2F61E7CE7D800F87093 /* Info.plist */,
+				0410B2EE1E7CE7D800F87093 /* Open_Source.xcdatamodeld */,
 			);
 			path = "Open-Source";
 			sourceTree = "<group>";
 		};
-		04E9A9881E7CB3C000BFE58D /* Open-SourceTests */ = {
+		0410B2FE1E7CE7D800F87093 /* Open-SourceTests */ = {
 			isa = PBXGroup;
 			children = (
-				04E9A9891E7CB3C000BFE58D /* Open_SourceTests.swift */,
-				04E9A98B1E7CB3C000BFE58D /* Info.plist */,
+				0410B2FF1E7CE7D800F87093 /* Open_SourceTests.swift */,
+				0410B3011E7CE7D800F87093 /* Info.plist */,
 			);
 			path = "Open-SourceTests";
 			sourceTree = "<group>";
 		};
-		04E9A9931E7CB3C000BFE58D /* Open-SourceUITests */ = {
+		0410B3091E7CE7D800F87093 /* Open-SourceUITests */ = {
 			isa = PBXGroup;
 			children = (
-				04E9A9941E7CB3C000BFE58D /* Open_SourceUITests.swift */,
-				04E9A9961E7CB3C000BFE58D /* Info.plist */,
+				0410B30A1E7CE7D800F87093 /* Open_SourceUITests.swift */,
+				0410B30C1E7CE7D800F87093 /* Info.plist */,
 			);
 			path = "Open-SourceUITests";
 			sourceTree = "<group>";
 		};
-		8AF68B509C01D5DC1E06486D /* Pods */ = {
+		0410B3181E7CE7E200F87093 /* swiftScan */ = {
 			isa = PBXGroup;
 			children = (
-				31DACA45DB722FD4DB3F9FB0 /* Pods-Open-Source.debug.xcconfig */,
-				A814A49AE06825075AA9A6A3 /* Pods-Open-Source.release.xcconfig */,
+				0410B3191E7CE7E200F87093 /* LBXPermissions.swift */,
+				0410B31A1E7CE7E200F87093 /* LBXScanLineAnimation.swift */,
+				0410B31B1E7CE7E200F87093 /* LBXScanNetAnimation.swift */,
+				0410B31C1E7CE7E200F87093 /* LBXScanView.swift */,
+				0410B31D1E7CE7E200F87093 /* LBXScanViewController.swift */,
+				0410B31E1E7CE7E200F87093 /* LBXScanViewStyle.swift */,
+				0410B31F1E7CE7E200F87093 /* LBXScanWrapper.swift */,
 			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		B098D6AEB4BE1EF479124BE3 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				87DF470E30D45FC38304CE80 /* Pods_Open_Source.framework */,
-			);
-			name = Frameworks;
+			path = swiftScan;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		04E9A96D1E7CB3C000BFE58D /* Open-Source */ = {
+		0410B2E31E7CE7D800F87093 /* Open-Source */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 04E9A9991E7CB3C000BFE58D /* Build configuration list for PBXNativeTarget "Open-Source" */;
+			buildConfigurationList = 0410B30F1E7CE7D800F87093 /* Build configuration list for PBXNativeTarget "Open-Source" */;
 			buildPhases = (
-				AA69B41F026EB99C3A4888FF /* [CP] Check Pods Manifest.lock */,
-				04E9A96A1E7CB3C000BFE58D /* Sources */,
-				04E9A96B1E7CB3C000BFE58D /* Frameworks */,
-				04E9A96C1E7CB3C000BFE58D /* Resources */,
-				E9CB90A27CA33724329AB743 /* [CP] Embed Pods Frameworks */,
-				B0F6B5771E2701D6456DBD57 /* [CP] Copy Pods Resources */,
+				0410B2E01E7CE7D800F87093 /* Sources */,
+				0410B2E11E7CE7D800F87093 /* Frameworks */,
+				0410B2E21E7CE7D800F87093 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -172,75 +174,75 @@
 			);
 			name = "Open-Source";
 			productName = "Open-Source";
-			productReference = 04E9A96E1E7CB3C000BFE58D /* Open-Source.app */;
+			productReference = 0410B2E41E7CE7D800F87093 /* Open-Source.app */;
 			productType = "com.apple.product-type.application";
 		};
-		04E9A9841E7CB3C000BFE58D /* Open-SourceTests */ = {
+		0410B2FA1E7CE7D800F87093 /* Open-SourceTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 04E9A99C1E7CB3C000BFE58D /* Build configuration list for PBXNativeTarget "Open-SourceTests" */;
+			buildConfigurationList = 0410B3121E7CE7D800F87093 /* Build configuration list for PBXNativeTarget "Open-SourceTests" */;
 			buildPhases = (
-				04E9A9811E7CB3C000BFE58D /* Sources */,
-				04E9A9821E7CB3C000BFE58D /* Frameworks */,
-				04E9A9831E7CB3C000BFE58D /* Resources */,
+				0410B2F71E7CE7D800F87093 /* Sources */,
+				0410B2F81E7CE7D800F87093 /* Frameworks */,
+				0410B2F91E7CE7D800F87093 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				04E9A9871E7CB3C000BFE58D /* PBXTargetDependency */,
+				0410B2FD1E7CE7D800F87093 /* PBXTargetDependency */,
 			);
 			name = "Open-SourceTests";
 			productName = "Open-SourceTests";
-			productReference = 04E9A9851E7CB3C000BFE58D /* Open-SourceTests.xctest */;
+			productReference = 0410B2FB1E7CE7D800F87093 /* Open-SourceTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		04E9A98F1E7CB3C000BFE58D /* Open-SourceUITests */ = {
+		0410B3051E7CE7D800F87093 /* Open-SourceUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 04E9A99F1E7CB3C000BFE58D /* Build configuration list for PBXNativeTarget "Open-SourceUITests" */;
+			buildConfigurationList = 0410B3151E7CE7D800F87093 /* Build configuration list for PBXNativeTarget "Open-SourceUITests" */;
 			buildPhases = (
-				04E9A98C1E7CB3C000BFE58D /* Sources */,
-				04E9A98D1E7CB3C000BFE58D /* Frameworks */,
-				04E9A98E1E7CB3C000BFE58D /* Resources */,
+				0410B3021E7CE7D800F87093 /* Sources */,
+				0410B3031E7CE7D800F87093 /* Frameworks */,
+				0410B3041E7CE7D800F87093 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				04E9A9921E7CB3C000BFE58D /* PBXTargetDependency */,
+				0410B3081E7CE7D800F87093 /* PBXTargetDependency */,
 			);
 			name = "Open-SourceUITests";
 			productName = "Open-SourceUITests";
-			productReference = 04E9A9901E7CB3C000BFE58D /* Open-SourceUITests.xctest */;
+			productReference = 0410B3061E7CE7D800F87093 /* Open-SourceUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		04E9A9661E7CB3C000BFE58D /* Project object */ = {
+		0410B2DC1E7CE7D800F87093 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = LinkStart;
 				TargetAttributes = {
-					04E9A96D1E7CB3C000BFE58D = {
+					0410B2E31E7CE7D800F87093 = {
 						CreatedOnToolsVersion = 8.3;
 						DevelopmentTeam = J97GRRCSX2;
 						ProvisioningStyle = Automatic;
 					};
-					04E9A9841E7CB3C000BFE58D = {
+					0410B2FA1E7CE7D800F87093 = {
 						CreatedOnToolsVersion = 8.3;
 						DevelopmentTeam = J97GRRCSX2;
 						ProvisioningStyle = Automatic;
-						TestTargetID = 04E9A96D1E7CB3C000BFE58D;
+						TestTargetID = 0410B2E31E7CE7D800F87093;
 					};
-					04E9A98F1E7CB3C000BFE58D = {
+					0410B3051E7CE7D800F87093 = {
 						CreatedOnToolsVersion = 8.3;
 						DevelopmentTeam = J97GRRCSX2;
 						ProvisioningStyle = Automatic;
-						TestTargetID = 04E9A96D1E7CB3C000BFE58D;
+						TestTargetID = 0410B2E31E7CE7D800F87093;
 					};
 				};
 			};
-			buildConfigurationList = 04E9A9691E7CB3C000BFE58D /* Build configuration list for PBXProject "Open-Source" */;
+			buildConfigurationList = 0410B2DF1E7CE7D800F87093 /* Build configuration list for PBXProject "Open-Source" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -248,37 +250,37 @@
 				en,
 				Base,
 			);
-			mainGroup = 04E9A9651E7CB3C000BFE58D;
-			productRefGroup = 04E9A96F1E7CB3C000BFE58D /* Products */;
+			mainGroup = 0410B2DB1E7CE7D800F87093;
+			productRefGroup = 0410B2E51E7CE7D800F87093 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				04E9A96D1E7CB3C000BFE58D /* Open-Source */,
-				04E9A9841E7CB3C000BFE58D /* Open-SourceTests */,
-				04E9A98F1E7CB3C000BFE58D /* Open-SourceUITests */,
+				0410B2E31E7CE7D800F87093 /* Open-Source */,
+				0410B2FA1E7CE7D800F87093 /* Open-SourceTests */,
+				0410B3051E7CE7D800F87093 /* Open-SourceUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		04E9A96C1E7CB3C000BFE58D /* Resources */ = {
+		0410B2E21E7CE7D800F87093 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04E9A97F1E7CB3C000BFE58D /* LaunchScreen.storyboard in Resources */,
-				04E9A97C1E7CB3C000BFE58D /* Assets.xcassets in Resources */,
-				04E9A9771E7CB3C000BFE58D /* Main.storyboard in Resources */,
+				0410B2F51E7CE7D800F87093 /* LaunchScreen.storyboard in Resources */,
+				0410B2F21E7CE7D800F87093 /* Assets.xcassets in Resources */,
+				0410B2ED1E7CE7D800F87093 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		04E9A9831E7CB3C000BFE58D /* Resources */ = {
+		0410B2F91E7CE7D800F87093 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		04E9A98E1E7CB3C000BFE58D /* Resources */ = {
+		0410B3041E7CE7D800F87093 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -287,109 +289,68 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		AA69B41F026EB99C3A4888FF /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		B0F6B5771E2701D6456DBD57 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Open-Source/Pods-Open-Source-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		E9CB90A27CA33724329AB743 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Open-Source/Pods-Open-Source-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		04E9A96A1E7CB3C000BFE58D /* Sources */ = {
+		0410B2E01E7CE7D800F87093 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04E9A9741E7CB3C000BFE58D /* ViewController.swift in Sources */,
-				04E9A9721E7CB3C000BFE58D /* AppDelegate.swift in Sources */,
-				04E9A97A1E7CB3C000BFE58D /* Open_Source.xcdatamodeld in Sources */,
+				0410B3241E7CE7E200F87093 /* LBXScanViewController.swift in Sources */,
+				0410B3261E7CE7E200F87093 /* LBXScanWrapper.swift in Sources */,
+				0410B3211E7CE7E200F87093 /* LBXScanLineAnimation.swift in Sources */,
+				0410B3231E7CE7E200F87093 /* LBXScanView.swift in Sources */,
+				0410B2EA1E7CE7D800F87093 /* ViewController.swift in Sources */,
+				0410B3201E7CE7E200F87093 /* LBXPermissions.swift in Sources */,
+				0410B3251E7CE7E200F87093 /* LBXScanViewStyle.swift in Sources */,
+				0410B2E81E7CE7D800F87093 /* AppDelegate.swift in Sources */,
+				0410B3221E7CE7E200F87093 /* LBXScanNetAnimation.swift in Sources */,
+				0410B2F01E7CE7D800F87093 /* Open_Source.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		04E9A9811E7CB3C000BFE58D /* Sources */ = {
+		0410B2F71E7CE7D800F87093 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04E9A98A1E7CB3C000BFE58D /* Open_SourceTests.swift in Sources */,
+				0410B3001E7CE7D800F87093 /* Open_SourceTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		04E9A98C1E7CB3C000BFE58D /* Sources */ = {
+		0410B3021E7CE7D800F87093 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04E9A9951E7CB3C000BFE58D /* Open_SourceUITests.swift in Sources */,
+				0410B30B1E7CE7D800F87093 /* Open_SourceUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		04E9A9871E7CB3C000BFE58D /* PBXTargetDependency */ = {
+		0410B2FD1E7CE7D800F87093 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 04E9A96D1E7CB3C000BFE58D /* Open-Source */;
-			targetProxy = 04E9A9861E7CB3C000BFE58D /* PBXContainerItemProxy */;
+			target = 0410B2E31E7CE7D800F87093 /* Open-Source */;
+			targetProxy = 0410B2FC1E7CE7D800F87093 /* PBXContainerItemProxy */;
 		};
-		04E9A9921E7CB3C000BFE58D /* PBXTargetDependency */ = {
+		0410B3081E7CE7D800F87093 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 04E9A96D1E7CB3C000BFE58D /* Open-Source */;
-			targetProxy = 04E9A9911E7CB3C000BFE58D /* PBXContainerItemProxy */;
+			target = 0410B2E31E7CE7D800F87093 /* Open-Source */;
+			targetProxy = 0410B3071E7CE7D800F87093 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		04E9A9751E7CB3C000BFE58D /* Main.storyboard */ = {
+		0410B2EB1E7CE7D800F87093 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				04E9A9761E7CB3C000BFE58D /* Base */,
+				0410B2EC1E7CE7D800F87093 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		04E9A97D1E7CB3C000BFE58D /* LaunchScreen.storyboard */ = {
+		0410B2F31E7CE7D800F87093 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				04E9A97E1E7CB3C000BFE58D /* Base */,
+				0410B2F41E7CE7D800F87093 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -397,7 +358,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		04E9A9971E7CB3C000BFE58D /* Debug */ = {
+		0410B30D1E7CE7D800F87093 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -448,7 +409,7 @@
 			};
 			name = Debug;
 		};
-		04E9A9981E7CB3C000BFE58D /* Release */ = {
+		0410B30E1E7CE7D800F87093 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -492,9 +453,8 @@
 			};
 			name = Release;
 		};
-		04E9A99A1E7CB3C000BFE58D /* Debug */ = {
+		0410B3101E7CE7D800F87093 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 31DACA45DB722FD4DB3F9FB0 /* Pods-Open-Source.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = J97GRRCSX2;
@@ -506,9 +466,8 @@
 			};
 			name = Debug;
 		};
-		04E9A99B1E7CB3C000BFE58D /* Release */ = {
+		0410B3111E7CE7D800F87093 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A814A49AE06825075AA9A6A3 /* Pods-Open-Source.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = J97GRRCSX2;
@@ -520,7 +479,7 @@
 			};
 			name = Release;
 		};
-		04E9A99D1E7CB3C000BFE58D /* Debug */ = {
+		0410B3131E7CE7D800F87093 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -535,7 +494,7 @@
 			};
 			name = Debug;
 		};
-		04E9A99E1E7CB3C000BFE58D /* Release */ = {
+		0410B3141E7CE7D800F87093 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -550,7 +509,7 @@
 			};
 			name = Release;
 		};
-		04E9A9A01E7CB3C000BFE58D /* Debug */ = {
+		0410B3161E7CE7D800F87093 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -564,7 +523,7 @@
 			};
 			name = Debug;
 		};
-		04E9A9A11E7CB3C000BFE58D /* Release */ = {
+		0410B3171E7CE7D800F87093 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -581,56 +540,53 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		04E9A9691E7CB3C000BFE58D /* Build configuration list for PBXProject "Open-Source" */ = {
+		0410B2DF1E7CE7D800F87093 /* Build configuration list for PBXProject "Open-Source" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				04E9A9971E7CB3C000BFE58D /* Debug */,
-				04E9A9981E7CB3C000BFE58D /* Release */,
+				0410B30D1E7CE7D800F87093 /* Debug */,
+				0410B30E1E7CE7D800F87093 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		04E9A9991E7CB3C000BFE58D /* Build configuration list for PBXNativeTarget "Open-Source" */ = {
+		0410B30F1E7CE7D800F87093 /* Build configuration list for PBXNativeTarget "Open-Source" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				04E9A99A1E7CB3C000BFE58D /* Debug */,
-				04E9A99B1E7CB3C000BFE58D /* Release */,
+				0410B3101E7CE7D800F87093 /* Debug */,
+				0410B3111E7CE7D800F87093 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
-		04E9A99C1E7CB3C000BFE58D /* Build configuration list for PBXNativeTarget "Open-SourceTests" */ = {
+		0410B3121E7CE7D800F87093 /* Build configuration list for PBXNativeTarget "Open-SourceTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				04E9A99D1E7CB3C000BFE58D /* Debug */,
-				04E9A99E1E7CB3C000BFE58D /* Release */,
+				0410B3131E7CE7D800F87093 /* Debug */,
+				0410B3141E7CE7D800F87093 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
-		04E9A99F1E7CB3C000BFE58D /* Build configuration list for PBXNativeTarget "Open-SourceUITests" */ = {
+		0410B3151E7CE7D800F87093 /* Build configuration list for PBXNativeTarget "Open-SourceUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				04E9A9A01E7CB3C000BFE58D /* Debug */,
-				04E9A9A11E7CB3C000BFE58D /* Release */,
+				0410B3161E7CE7D800F87093 /* Debug */,
+				0410B3171E7CE7D800F87093 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		04E9A9781E7CB3C000BFE58D /* Open_Source.xcdatamodeld */ = {
+		0410B2EE1E7CE7D800F87093 /* Open_Source.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				04E9A9791E7CB3C000BFE58D /* Open_Source.xcdatamodel */,
+				0410B2EF1E7CE7D800F87093 /* Open_Source.xcdatamodel */,
 			);
-			currentVersion = 04E9A9791E7CB3C000BFE58D /* Open_Source.xcdatamodel */;
+			currentVersion = 0410B2EF1E7CE7D800F87093 /* Open_Source.xcdatamodel */;
 			path = Open_Source.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
 /* End XCVersionGroup section */
 	};
-	rootObject = 04E9A9661E7CB3C000BFE58D /* Project object */;
+	rootObject = 0410B2DC1E7CE7D800F87093 /* Project object */;
 }

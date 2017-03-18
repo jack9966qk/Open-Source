@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "04E9A96D1E7CB3C000BFE58D"
+               BlueprintIdentifier = "0410B2E31E7CE7D800F87093"
                BuildableName = "Open-Source.app"
                BlueprintName = "Open-Source"
                ReferencedContainer = "container:Open-Source.xcodeproj">
@@ -32,7 +32,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "04E9A9841E7CB3C000BFE58D"
+               BlueprintIdentifier = "0410B2FA1E7CE7D800F87093"
                BuildableName = "Open-SourceTests.xctest"
                BlueprintName = "Open-SourceTests"
                ReferencedContainer = "container:Open-Source.xcodeproj">
@@ -42,7 +42,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "04E9A98F1E7CB3C000BFE58D"
+               BlueprintIdentifier = "0410B3051E7CE7D800F87093"
                BuildableName = "Open-SourceUITests.xctest"
                BlueprintName = "Open-SourceUITests"
                ReferencedContainer = "container:Open-Source.xcodeproj">
@@ -52,7 +52,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "04E9A96D1E7CB3C000BFE58D"
+            BlueprintIdentifier = "0410B2E31E7CE7D800F87093"
             BuildableName = "Open-Source.app"
             BlueprintName = "Open-Source"
             ReferencedContainer = "container:Open-Source.xcodeproj">
@@ -75,7 +75,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "04E9A96D1E7CB3C000BFE58D"
+            BlueprintIdentifier = "0410B2E31E7CE7D800F87093"
             BuildableName = "Open-Source.app"
             BlueprintName = "Open-Source"
             ReferencedContainer = "container:Open-Source.xcodeproj">
@@ -94,7 +94,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "04E9A96D1E7CB3C000BFE58D"
+            BlueprintIdentifier = "0410B2E31E7CE7D800F87093"
             BuildableName = "Open-Source.app"
             BlueprintName = "Open-Source"
             ReferencedContainer = "container:Open-Source.xcodeproj">
