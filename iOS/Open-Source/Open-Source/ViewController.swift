@@ -8,14 +8,17 @@
 
 import UIKit
 
-@IBDesignable class ViewController: LBXScanViewController {
+@IBDesignable class ViewController: LBXScanViewController, UIWebViewDelegate {
     
-    @IBOutlet weak var label: UILabel!
+    @IBOutlet weak var webView: UIWebView!
     
-    var qrCodes:[LBXScanResult] = []
+    var scannedStrings:[String] = []
     var isScanning = false
     
     override func viewDidLoad() {
+        webView.isHidden = true
+        webView.layer.cornerRadius = 5
+        self.modalPresentationStyle = UIModalPresentationStyle.currentContext
         _ = Timer.scheduledTimer(timeInterval: 0.4, target: self, selector: "update", userInfo: nil, repeats: true)
     }
     
@@ -24,12 +27,21 @@ import UIKit
     }
     
     override func handleCodeResult(arrayResult: [LBXScanResult]) {
-        var text:[String] = []
-        for result in arrayResult {
-            print(result.strScanned!)
-            text.append(result.strScanned!)
+        var strings = arrayResult.map { result in
+            return result.strScanned!
         }
-        label.text? = text.joined(separator: "\n")
+        performSegue(withIdentifier: "displayDetail", sender: self)
+
+        if !(scannedStrings == strings) {
+            let url = URL(string: strings[0])!
+            webView.isHidden = false
+            self.view.bringSubview(toFront: webView)
+            let req = URLRequest(url: url)
+            webView.loadRequest(req)
+        }
+        
+        scannedStrings = strings
+        
         scanObj?.start()
     }
     

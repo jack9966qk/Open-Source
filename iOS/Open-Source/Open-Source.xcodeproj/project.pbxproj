@@ -22,6 +22,17 @@
 		0410B3241E7CE7E200F87093 /* LBXScanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0410B31D1E7CE7E200F87093 /* LBXScanViewController.swift */; };
 		0410B3251E7CE7E200F87093 /* LBXScanViewStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0410B31E1E7CE7E200F87093 /* LBXScanViewStyle.swift */; };
 		0410B3261E7CE7E200F87093 /* LBXScanWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0410B31F1E7CE7E200F87093 /* LBXScanWrapper.swift */; };
+		049348371E7D09FC00855D6C /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 049348271E7D09FC00855D6C /* Info.plist */; };
+		049348381E7D09FC00855D6C /* STPopupController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0493482A1E7D09FC00855D6C /* STPopupController.m */; };
+		049348391E7D09FC00855D6C /* STPopupControllerTransitioningFade.m in Sources */ = {isa = PBXBuildFile; fileRef = 0493482C1E7D09FC00855D6C /* STPopupControllerTransitioningFade.m */; };
+		0493483A1E7D09FC00855D6C /* STPopupControllerTransitioningSlideVertical.m in Sources */ = {isa = PBXBuildFile; fileRef = 0493482E1E7D09FC00855D6C /* STPopupControllerTransitioningSlideVertical.m */; };
+		0493483B1E7D09FC00855D6C /* STPopupLeftBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 049348301E7D09FC00855D6C /* STPopupLeftBarItem.m */; };
+		0493483C1E7D09FC00855D6C /* STPopupNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 049348321E7D09FC00855D6C /* STPopupNavigationBar.m */; };
+		0493483D1E7D09FC00855D6C /* UIResponder+STPopup.m in Sources */ = {isa = PBXBuildFile; fileRef = 049348341E7D09FC00855D6C /* UIResponder+STPopup.m */; };
+		0493483E1E7D09FC00855D6C /* UIViewController+STPopup.m in Sources */ = {isa = PBXBuildFile; fileRef = 049348361E7D09FC00855D6C /* UIViewController+STPopup.m */; };
+		049348461E7D0A1B00855D6C /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 049348401E7D0A1B00855D6C /* Info.plist */; };
+		049348471E7D0A1B00855D6C /* STPopupPreviewRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 049348431E7D0A1B00855D6C /* STPopupPreviewRecognizer.m */; };
+		049348481E7D0A1B00855D6C /* UIView+STPopupPreview.m in Sources */ = {isa = PBXBuildFile; fileRef = 049348451E7D0A1B00855D6C /* UIView+STPopupPreview.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +74,29 @@
 		0410B31D1E7CE7E200F87093 /* LBXScanViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LBXScanViewController.swift; sourceTree = "<group>"; };
 		0410B31E1E7CE7E200F87093 /* LBXScanViewStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LBXScanViewStyle.swift; sourceTree = "<group>"; };
 		0410B31F1E7CE7E200F87093 /* LBXScanWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LBXScanWrapper.swift; sourceTree = "<group>"; };
+		049348271E7D09FC00855D6C /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		049348281E7D09FC00855D6C /* STPopup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STPopup.h; sourceTree = "<group>"; };
+		049348291E7D09FC00855D6C /* STPopupController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STPopupController.h; sourceTree = "<group>"; };
+		0493482A1E7D09FC00855D6C /* STPopupController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STPopupController.m; sourceTree = "<group>"; };
+		0493482B1E7D09FC00855D6C /* STPopupControllerTransitioningFade.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STPopupControllerTransitioningFade.h; sourceTree = "<group>"; };
+		0493482C1E7D09FC00855D6C /* STPopupControllerTransitioningFade.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STPopupControllerTransitioningFade.m; sourceTree = "<group>"; };
+		0493482D1E7D09FC00855D6C /* STPopupControllerTransitioningSlideVertical.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STPopupControllerTransitioningSlideVertical.h; sourceTree = "<group>"; };
+		0493482E1E7D09FC00855D6C /* STPopupControllerTransitioningSlideVertical.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STPopupControllerTransitioningSlideVertical.m; sourceTree = "<group>"; };
+		0493482F1E7D09FC00855D6C /* STPopupLeftBarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STPopupLeftBarItem.h; sourceTree = "<group>"; };
+		049348301E7D09FC00855D6C /* STPopupLeftBarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STPopupLeftBarItem.m; sourceTree = "<group>"; };
+		049348311E7D09FC00855D6C /* STPopupNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STPopupNavigationBar.h; sourceTree = "<group>"; };
+		049348321E7D09FC00855D6C /* STPopupNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STPopupNavigationBar.m; sourceTree = "<group>"; };
+		049348331E7D09FC00855D6C /* UIResponder+STPopup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIResponder+STPopup.h"; sourceTree = "<group>"; };
+		049348341E7D09FC00855D6C /* UIResponder+STPopup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIResponder+STPopup.m"; sourceTree = "<group>"; };
+		049348351E7D09FC00855D6C /* UIViewController+STPopup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+STPopup.h"; sourceTree = "<group>"; };
+		049348361E7D09FC00855D6C /* UIViewController+STPopup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+STPopup.m"; sourceTree = "<group>"; };
+		049348401E7D0A1B00855D6C /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		049348411E7D0A1B00855D6C /* STPopupPreview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STPopupPreview.h; sourceTree = "<group>"; };
+		049348421E7D0A1B00855D6C /* STPopupPreviewRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STPopupPreviewRecognizer.h; sourceTree = "<group>"; };
+		049348431E7D0A1B00855D6C /* STPopupPreviewRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STPopupPreviewRecognizer.m; sourceTree = "<group>"; };
+		049348441E7D0A1B00855D6C /* UIView+STPopupPreview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+STPopupPreview.h"; sourceTree = "<group>"; };
+		049348451E7D0A1B00855D6C /* UIView+STPopupPreview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+STPopupPreview.m"; sourceTree = "<group>"; };
+		0493484A1E7D0A4500855D6C /* Open-Source-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Open-Source-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,12 +147,15 @@
 		0410B2E61E7CE7D800F87093 /* Open-Source */ = {
 			isa = PBXGroup;
 			children = (
+				0493483F1E7D0A1B00855D6C /* STPopupPreview */,
+				049348261E7D09FC00855D6C /* STPopup */,
 				0410B3181E7CE7E200F87093 /* swiftScan */,
 				0410B2E71E7CE7D800F87093 /* AppDelegate.swift */,
 				0410B2E91E7CE7D800F87093 /* ViewController.swift */,
 				0410B2EB1E7CE7D800F87093 /* Main.storyboard */,
 				0410B2F11E7CE7D800F87093 /* Assets.xcassets */,
 				0410B2F31E7CE7D800F87093 /* LaunchScreen.storyboard */,
+				0493484A1E7D0A4500855D6C /* Open-Source-Bridging-Header.h */,
 				0410B2F61E7CE7D800F87093 /* Info.plist */,
 				0410B2EE1E7CE7D800F87093 /* Open_Source.xcdatamodeld */,
 			);
@@ -155,6 +192,42 @@
 				0410B31F1E7CE7E200F87093 /* LBXScanWrapper.swift */,
 			);
 			path = swiftScan;
+			sourceTree = "<group>";
+		};
+		049348261E7D09FC00855D6C /* STPopup */ = {
+			isa = PBXGroup;
+			children = (
+				049348271E7D09FC00855D6C /* Info.plist */,
+				049348281E7D09FC00855D6C /* STPopup.h */,
+				049348291E7D09FC00855D6C /* STPopupController.h */,
+				0493482A1E7D09FC00855D6C /* STPopupController.m */,
+				0493482B1E7D09FC00855D6C /* STPopupControllerTransitioningFade.h */,
+				0493482C1E7D09FC00855D6C /* STPopupControllerTransitioningFade.m */,
+				0493482D1E7D09FC00855D6C /* STPopupControllerTransitioningSlideVertical.h */,
+				0493482E1E7D09FC00855D6C /* STPopupControllerTransitioningSlideVertical.m */,
+				0493482F1E7D09FC00855D6C /* STPopupLeftBarItem.h */,
+				049348301E7D09FC00855D6C /* STPopupLeftBarItem.m */,
+				049348311E7D09FC00855D6C /* STPopupNavigationBar.h */,
+				049348321E7D09FC00855D6C /* STPopupNavigationBar.m */,
+				049348331E7D09FC00855D6C /* UIResponder+STPopup.h */,
+				049348341E7D09FC00855D6C /* UIResponder+STPopup.m */,
+				049348351E7D09FC00855D6C /* UIViewController+STPopup.h */,
+				049348361E7D09FC00855D6C /* UIViewController+STPopup.m */,
+			);
+			path = STPopup;
+			sourceTree = "<group>";
+		};
+		0493483F1E7D0A1B00855D6C /* STPopupPreview */ = {
+			isa = PBXGroup;
+			children = (
+				049348401E7D0A1B00855D6C /* Info.plist */,
+				049348411E7D0A1B00855D6C /* STPopupPreview.h */,
+				049348421E7D0A1B00855D6C /* STPopupPreviewRecognizer.h */,
+				049348431E7D0A1B00855D6C /* STPopupPreviewRecognizer.m */,
+				049348441E7D0A1B00855D6C /* UIView+STPopupPreview.h */,
+				049348451E7D0A1B00855D6C /* UIView+STPopupPreview.m */,
+			);
+			path = STPopupPreview;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -267,8 +340,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				049348371E7D09FC00855D6C /* Info.plist in Resources */,
 				0410B2F51E7CE7D800F87093 /* LaunchScreen.storyboard in Resources */,
 				0410B2F21E7CE7D800F87093 /* Assets.xcassets in Resources */,
+				049348461E7D0A1B00855D6C /* Info.plist in Resources */,
 				0410B2ED1E7CE7D800F87093 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -294,16 +369,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0493483C1E7D09FC00855D6C /* STPopupNavigationBar.m in Sources */,
+				0493483E1E7D09FC00855D6C /* UIViewController+STPopup.m in Sources */,
 				0410B3241E7CE7E200F87093 /* LBXScanViewController.swift in Sources */,
+				0493483A1E7D09FC00855D6C /* STPopupControllerTransitioningSlideVertical.m in Sources */,
 				0410B3261E7CE7E200F87093 /* LBXScanWrapper.swift in Sources */,
+				0493483B1E7D09FC00855D6C /* STPopupLeftBarItem.m in Sources */,
 				0410B3211E7CE7E200F87093 /* LBXScanLineAnimation.swift in Sources */,
+				0493483D1E7D09FC00855D6C /* UIResponder+STPopup.m in Sources */,
+				049348381E7D09FC00855D6C /* STPopupController.m in Sources */,
 				0410B3231E7CE7E200F87093 /* LBXScanView.swift in Sources */,
+				049348471E7D0A1B00855D6C /* STPopupPreviewRecognizer.m in Sources */,
 				0410B2EA1E7CE7D800F87093 /* ViewController.swift in Sources */,
 				0410B3201E7CE7E200F87093 /* LBXPermissions.swift in Sources */,
+				049348391E7D09FC00855D6C /* STPopupControllerTransitioningFade.m in Sources */,
 				0410B3251E7CE7E200F87093 /* LBXScanViewStyle.swift in Sources */,
 				0410B2E81E7CE7D800F87093 /* AppDelegate.swift in Sources */,
 				0410B3221E7CE7E200F87093 /* LBXScanNetAnimation.swift in Sources */,
 				0410B2F01E7CE7D800F87093 /* Open_Source.xcdatamodeld in Sources */,
+				049348481E7D0A1B00855D6C /* UIView+STPopupPreview.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -462,6 +546,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "me.jackq.Open-Source";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/Jack/Documents/Open-Source/iOS/Open-Source/Open-Source/Open-Source-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -475,6 +560,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "me.jackq.Open-Source";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/Jack/Documents/Open-Source/iOS/Open-Source/Open-Source/Open-Source-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -556,6 +642,7 @@
 				0410B3111E7CE7D800F87093 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0410B3121E7CE7D800F87093 /* Build configuration list for PBXNativeTarget "Open-SourceTests" */ = {
 			isa = XCConfigurationList;
@@ -564,6 +651,7 @@
 				0410B3141E7CE7D800F87093 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0410B3151E7CE7D800F87093 /* Build configuration list for PBXNativeTarget "Open-SourceUITests" */ = {
 			isa = XCConfigurationList;
@@ -572,6 +660,7 @@
 				0410B3171E7CE7D800F87093 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
